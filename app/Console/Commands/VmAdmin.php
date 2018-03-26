@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Log;
 
-class FcAdmin extends Command
+class VmAdmin extends Command
 {
     /**
      * The name and signature of the console command.

@@ -2,12 +2,12 @@
 
 namespace App\Models\Admin;
 
-use App\Models\FcAdminModel;
+use App\Models\VmAdminModel;
 use Illuminate\Database\Eloquent\Model;
 
 class AdminPermission extends Model
 {
-    use FcAdminModel;
+    use VmAdminModel;
 
     protected $table='admin_permissions';
 

@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\URL;
  * Class FcAdminAuth
  * @package App\Http\Middleware
  */
-class FcAdminAuth
+class VmAdminAuth
 {
     /**
      * Handle an incoming request.
@@ -35,7 +35,7 @@ class FcAdminAuth
                     return (new Tool())->setStatusCode(403)->responseError('您没有权限执行此操作!');
                 } else {
                     //获取skin样式
-                    $skin = Config::get('fc_admin.skin');
+                    $skin = Config::get('vm_admin.skin');
                     if(empty($skin)) $skin = 'skin-blue';  //默认样式
 
                     return response()->view('admin.errors.403', compact('previousUrl', 'skin'));

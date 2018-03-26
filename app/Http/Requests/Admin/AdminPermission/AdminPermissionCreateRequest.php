@@ -3,11 +3,11 @@
 namespace App\Http\Requests\Admin\AdminPermission;
 
 use Illuminate\Foundation\Http\FormRequest;
-use App\Http\Requests\Admin\FcAdminRequest;
+use App\Http\Requests\Admin\VmAdminRequest;
 
 class AdminPermissionCreateRequest extends FormRequest
 {
-    use FcAdminRequest;
+    use VmAdminRequest;
 
     /**
      * Determine if the user is authorized to make this request.

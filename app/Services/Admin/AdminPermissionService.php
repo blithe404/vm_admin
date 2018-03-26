@@ -14,10 +14,10 @@ use App\Events\AdminLoggerEvent;
 use App\Events\AdminPermissionChangeEvent;
 use App\Models\Admin\AdminPermission;
 use App\Services\DataTableService;
-use App\Services\FcAdminService;
+use App\Services\VmAdminService;
 use Illuminate\Support\Facades\Event;
 
-class AdminPermissionService extends FcAdminService
+class AdminPermissionService extends VmAdminService
 {
     use DataTableService;
 

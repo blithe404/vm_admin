@@ -11,7 +11,7 @@ use Illuminate\Foundation\Http\FormRequest;
  */
 class LoginRequest extends FormRequest
 {
-    use FcAdminRequest;
+    use VmAdminRequest;
 
     protected $dontFlash = ['password'];
 

@@ -4,7 +4,7 @@ namespace App\Http\Requests\Admin\Ucenter;
 
 use App\Services\Admin\AdminUserService;
 use Illuminate\Foundation\Http\FormRequest;
-use App\Http\Requests\Admin\FcAdminRequest;
+use App\Http\Requests\Admin\VmAdminRequest;
 
 /**
  * 个人中心修改资料请求
@@ -13,7 +13,7 @@ use App\Http\Requests\Admin\FcAdminRequest;
  */
 class UcenterEditRequest extends FormRequest
 {
-    use FcAdminRequest;
+    use VmAdminRequest;
 
     /**
      * Determine if the user is authorized to make this request.

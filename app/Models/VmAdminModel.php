@@ -8,7 +8,7 @@
  */
 namespace App\Models;
 
-trait FcAdminModel
+trait VmAdminModel
 {
     /**
      * 对接datatables插件的查询器

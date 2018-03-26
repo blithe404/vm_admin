@@ -13,8 +13,8 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        Commands\FcAdmin::class,
-        Commands\FcAdminCache::class,
+        Commands\VmAdmin::class,
+        Commands\VmAdminCache::class,
 
     ];
 

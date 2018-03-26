@@ -68,8 +68,8 @@ class Kernel extends HttpKernel
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
 
         //后台
-        'fcAdmin.login' => \App\Http\Middleware\FcAdminLogin::class,
-        'fcAdmin.auth' => \App\Http\Middleware\FcAdminAuth::class,
-        'fcAdmin.permission' => \App\Http\Middleware\FcAdminPermission::class,
+        'vmAdmin.login' => \App\Http\Middleware\VmAdminLogin::class,
+        'vmAdmin.auth' => \App\Http\Middleware\VmAdminAuth::class,
+        'vmAdmin.permission' => \App\Http\Middleware\VmAdminPermission::class,
     ];
 }

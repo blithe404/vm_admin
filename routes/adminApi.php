@@ -9,7 +9,7 @@
 
 Route::post('login', 'LoginController@login'); //登录处理
 
-Route::group(['middleware' => ['fcAdmin.login:admin', 'fcAdmin.auth']], function () {
+Route::group(['middleware' => ['vmAdmin.login:admin', 'vmAdmin.auth']], function () {
 
     //个人中心
     Route::post('ucenter/edit', 'UcenterController@edit'); //修改个人资料

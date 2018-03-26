@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\View;
  * Class FcAdminPermission
  * @package App\Http\Middleware
  */
-class FcAdminPermission
+class VmAdminPermission
 {
     /**
      * Handle an incoming request.

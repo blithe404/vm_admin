@@ -27,7 +27,7 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
         //后台
-        $this->fcAdmin($gateContract, $request);
+        $this->vmAdmin($gateContract, $request);
     }
 
     /**
@@ -35,7 +35,7 @@ class AuthServiceProvider extends ServiceProvider
      * @param $gateContract
      * @param $request
      */
-    private function fcAdmin($gateContract, $request)
+    private function vmAdmin($gateContract, $request)
     {
         //区分后台访问
         $pathInfo = ltrim($request->getPathInfo(), '/');

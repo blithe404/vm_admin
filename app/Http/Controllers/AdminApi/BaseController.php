@@ -13,7 +13,7 @@ use App\Services\Admin\AdminUserService;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Response;
-use App\Libs\FcAdmin\Tool;
+use App\Libs\VmAdmin\Tool;
 
 class BaseController extends Controller
 {

@@ -7,7 +7,7 @@ use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\URL;
 
-class FcAdminCache extends Command
+class VmAdminCache extends Command
 {
     /**
      * The name and signature of the console command.

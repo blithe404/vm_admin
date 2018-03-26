@@ -3,11 +3,11 @@
 namespace App\Models\Admin;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use App\Models\FcAdminModel;
+use App\Models\VmAdminModel;
 
 class AdminUser extends Authenticatable
 {
-    use FcAdminModel;
+    use VmAdminModel;
 
     protected $table='admin_users';
 

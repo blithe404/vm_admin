@@ -1,5 +1,5 @@
 <?php
-namespace App\Libs\FcAdmin;
+namespace App\Libs\VmAdmin;
 
 use Illuminate\Support\Facades\Response;
 

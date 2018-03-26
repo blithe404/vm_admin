@@ -9,9 +9,9 @@
 namespace App\Http\Requests\Admin;
 
 
-use App\Libs\FcAdmin\Tool;
+use App\Libs\VmAdmin\Tool;
 
-trait FcAdminRequest
+trait VmAdminRequest
 {
     public function response(array $errors)
     {

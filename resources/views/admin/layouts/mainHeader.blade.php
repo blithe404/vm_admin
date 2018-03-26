@@ -3,9 +3,9 @@
     <!-- Logo -->
     <a href="{{ url('admin') }}" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
-        <span class="logo-mini"><b>F</b>cA</span>
+        <span class="logo-mini"><b>V</b>mA</span>
         <!-- logo for regular state and mobile devices -->
-        <span class="logo-lg"><b>Fc</b>Admin</span>
+        <span class="logo-lg"><b>Vm</b>Admin</span>
     </a>
 
     <!-- Header Navbar -->

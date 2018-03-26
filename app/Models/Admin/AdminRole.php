@@ -3,11 +3,11 @@
 namespace App\Models\Admin;
 
 use Illuminate\Database\Eloquent\Model;
-use App\Models\FcAdminModel;
+use App\Models\VmAdminModel;
 
 class AdminRole extends Model
 {
-    use FcAdminModel;
+    use VmAdminModel;
 
     protected $table='admin_roles';
 

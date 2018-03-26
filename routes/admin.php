@@ -12,7 +12,7 @@ Route::get('captcha', 'CaptchaController@index'); //登录验证码
 Route::get('login', 'LoginController@index'); //登录页
 Route::get('logout', 'LoginController@logout'); //退出
 
-Route::group(['middleware' => ['fcAdmin.login:admin', 'fcAdmin.permission', 'fcAdmin.auth']], function () {
+Route::group(['middleware' => ['vmAdmin.login:admin', 'vmAdmin.permission', 'vmAdmin.auth']], function () {
 
     //基础路由
     Route::get('/', 'IndexController@index');

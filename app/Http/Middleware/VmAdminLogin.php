@@ -2,7 +2,7 @@
 
 namespace App\Http\Middleware;
 
-use App\Libs\FcAdmin\Tool;
+use App\Libs\VmAdmin\Tool;
 use Closure;
 use Illuminate\Support\Facades\Auth;
 
@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Auth;
  * Class FcAdminLogin
  * @package App\Http\Middleware
  */
-class FcAdminLogin
+class VmAdminLogin
 {
     /**
      * Handle an incoming request.

@@ -3,7 +3,7 @@
 namespace App\Http\Requests\Admin\Ucenter;
 
 use Illuminate\Foundation\Http\FormRequest;
-use App\Http\Requests\Admin\FcAdminRequest;
+use App\Http\Requests\Admin\VmAdminRequest;
 
 /**
  * 个人中心修改密码请求
@@ -12,7 +12,7 @@ use App\Http\Requests\Admin\FcAdminRequest;
  */
 class UcenterPasswordRequest extends FormRequest
 {
-    use FcAdminRequest;
+    use VmAdminRequest;
 
     protected $dontFlash = ['old_password', 'new_password'];
 

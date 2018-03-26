@@ -14,11 +14,11 @@ use App\Events\AdminLoggerEvent;
 use App\Models\Admin\AdminUser;
 use Illuminate\Support\Facades\Auth;
 use App\Services\DataTableService;
-use App\Services\FcAdminService;
+use App\Services\VmAdminService;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Str;
 
-class AdminUserService extends FcAdminService
+class AdminUserService extends VmAdminService
 {
     use DataTableService;
 

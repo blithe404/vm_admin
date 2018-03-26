@@ -38,7 +38,7 @@ return [
         'attributes' => [
             'prefix'     => 'admin/log-viewer',
 
-            'middleware' => ['admin', 'fcAdmin.login:admin', 'fcAdmin.permission', 'fcAdmin.auth'],
+            'middleware' => ['admin', 'vmAdmin.login:admin', 'vmAdmin.permission', 'vmAdmin.auth'],
         ],
     ],
 
